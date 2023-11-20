@@ -21,7 +21,7 @@
             <label for="title" class="form-label">Ingresa el nuevo título de la tarea que quieres modificar. </label>
             <input type="text" class="form-control mb-2" name="title" id="exampleFormControlInput1" placeholder="Comprar la cena" value="{{ $todo->title }}">
 
-             <label for="category_id" class="form-label">Elige la categoría que mejor se adapte a tu tarea.</label>
+             <label for="category_id" class="form-label">Elige el Usuario que mejor se adapte a tu tarea.</label>
             <select name="category_id" class="form-select">
                 @foreach ($categories as $category)
                     <option value="{{$category->id}}">{{$category->name}}</option>

@@ -48,7 +48,7 @@
                 <a class="nav-link {{str_contains('todos',Route::current()->getName())? 'active': ''}}" href="{{ route('todos') }}">Tareas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{str_contains('categories', Route::current()->getName()) ? 'active' : '' }}" href="{{ route('categories.index') }}">Categorias</a>
+                    <a class="nav-link {{str_contains('categories', Route::current()->getName()) ? 'active' : '' }}" href="{{ route('categories.index') }}">Usuarios</a>
                 </li>
             </ul>
             </div>

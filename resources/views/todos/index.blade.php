@@ -17,10 +17,10 @@
         @endif
             
             <h1 class="text-center">Añadir una nueva tarea a tu lista</h1>
-            <label for="title" class="form-label">Ingresa el título de la tarea que quieres realizar.</label>
+            <label for="title" class="form-label">Ingresa el título de la tarea.</label>
             <input type="text" class="form-control mb-2" name="title" id="exampleFormControlInput1" placeholder="Comprar la cena">
 
-            <label for="category_id" class="form-label">Elige la categoría que mejor se adapte a tu tarea. </label>
+            <label for="category_id" class="form-label">Elige el usuario que mejor se adapte a la tarea. </label>
             <select name="category_id" class="form-select">
                 @foreach ($categories as $category)
                     <option value="{{$category->id}}">{{$category->name}}</option>

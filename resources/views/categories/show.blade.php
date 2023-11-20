@@ -21,14 +21,14 @@
         @if (session('success'))
                 <h6 class="alert alert-success">{{ session('success') }}</h6>
         @endif
-            <h1 class="text-center">Editar una categoría existente</h1>
-            <label for="exampleFormControlInput1" class="form-label">Nombre de la categoría</label>
-            <input type="text" class="form-control mb-2" name="name" id="exampleFormControlInput1" placeholder="Hogar" value="{{ $category->name }}">
+            <h1 class="text-center">Editar un Usuario existente</h1>
+            <label for="exampleFormControlInput1" class="form-label">Nombre del Usuario</label>
+            <input type="text" class="form-control mb-2" name="name" id="exampleFormControlInput1" placeholder="Anyerson Velasques" value="{{ $category->name }}">
             
-            <label for="exampleColorInput" class="form-label">Escoge un color para la categoría</label>
+            <label for="exampleColorInput" class="form-label">Escoge un color para el Usuario</label>
             <input type="color" class="form-control form-control-color" name="color" id="exampleColorInput" value="{{ $category->color }}" title="Choose your color">
 
-            <input type="submit" value="Actualizar Categoria" class="btn btn-primary my-2" />
+            <input type="submit" value="Actualizar Usuario" class="btn btn-primary my-2" />
         </div>
     </form>
 
@@ -50,7 +50,7 @@
             </div>
         @endforeach    
     @else
-        No hay tareas para esta categoría
+        No hay tareas para este Usuario
     @endif
     
     </div>
